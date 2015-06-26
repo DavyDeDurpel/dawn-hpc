@@ -32,6 +32,7 @@ public class HowToGetNodeJavaVersion {
 
     try {
       session.init("");
+      
       JobTemplate jt = session.createJobTemplate();
       jt.setRemoteCommand("java");
       List<String> jobArgs = new ArrayList<String>();
